@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <script src="rock_paper_scissors.js"></script>
+</head>
+
+<body>
+    <h1>Rock - Paper - Scissors Game</h1>
+    <div>
+        <div>
+            <p>Make Your Choice:</p>
+            <input type="button" value="Rock" onclick="choose(0);" />
+            <input type="button" value="Paper" onclick="choose(1);" />
+            <input type="button" value="Scissors" onclick="choose(2);" />
+        </div>
+
+        <div>
+            <table>
+                <th>You || </th>
+                <th>Computer || </th>
+                <th>Ties</th>
+                <tr>
+                    <td id="you">0</td>
+                    <td id="computer">0</td>
+                    <td id="ties">0</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h5 id="choice"></h5>
+        </div>
+    </div>
+    <div>
+        <div>
+            Your Choice is: <h3 id="yourChoice"></h3>
+        </div>
+        <div>
+            Computer Choice is: <h3 id="computerChoice"></h3>
+        </div>
+
+    </div>
+    <br>
+
+    <br>
+
+
+</body>
+
+</html>
